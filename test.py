@@ -88,7 +88,7 @@ ret = miniapi.upload("http://192.168.1.128/Linux/Users/Douglas/test.php", "./tes
 test_logger.debug(f"Uploaded test.txt.Returned status code: {ret.status_code}")
 
 ret = miniapi.tqdm_download("http://192.168.1.128/game_3.0.0.apk", "./example_tqdm.apk", params=None)
-test_logger.debug(f"Tqdm download completed.Returned status code: {ret.status_code}")
+test_logger.debug(f"Tqdm download completed.Returned status code: {ret}")
 
 root = tk.Tk()
 root.geometry("300x100")
